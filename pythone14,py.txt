@@ -1,0 +1,5 @@
+   def rotatelist(l, k):
+    if k <= 0:
+        return l
+    k = k % len(l)
+    return l[k:] + l[:k]
