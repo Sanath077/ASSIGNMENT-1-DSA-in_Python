@@ -18,3 +18,10 @@ def remdup(l):
   Insert the element using append keyword...
   Then reverse notsame list...
   return notsame list"""
+
+
+This is using dict funtion
+'''
+def remdup(l):
+    return list(reversed(list(dict.fromkeys(reversed(l)))))
+'''
